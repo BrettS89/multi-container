@@ -18,7 +18,7 @@ after_success:
   - docker push bretts89/multi-nginx
   - docker push bretts89/multi-server
   - docker push bretts89/multi-worker 
-  
+
 deploy:
   skip_cleanup: true
   provider: elasticbeanstalk
